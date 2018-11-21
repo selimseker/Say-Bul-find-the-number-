@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/background_one"
+        android:layout_width="900dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/qwe1" />
+
+    <ImageView
+        android:id="@+id/background_two"
+        android:layout_width="950dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:src="@drawable/qwe2" />
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="263dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/logo1" />
+
+        <ImageButton
+            android:id="@+id/play"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/play_button1" />
+
+        <ImageButton
+            android:id="@+id/howtoplay"
+            android:layout_width="73dp"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/how_to_play1" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_dialog"
+        android:layout_width="352dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:background="#1900ff"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="97dp"
+            android:layout_height="101dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo1" />
+
+        <TextView
+            android:id="@+id/text_how"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:paddingRight="10dp"
+            android:text="@string/dialog1"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:id="@+id/previous"
+                android:layout_weight="1"
+                android:layout_height="68dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="12dp"
+                android:background="@drawable/prev_button" />
+
+            <ImageButton
+                android:id="@+id/next_btn"
+                android:layout_weight="1"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="5dp"
+                android:layout_width="90dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/skip_button1" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

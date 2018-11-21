@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SayiBulmaca</string>
+    <string name="dialog1">Rastgele olarak seçilen 4 basamaklı sayıyı, aynı rakam tekrar etmeyecek şekilde tahmin etmeye çalışın.\n
+Tahmininizdeki herhangi bir rakamın varlığı doğru ve basamağı doğru ise +, yanlış ise - sonuçlarını alırsınız. Eğer rakam hiç yoksa herhangi bir
+geri dönüş almazsınız.</string>
+    <string name="dialog2">Örneğin rastgele seçilen sayımız "1905" ve tahmin ettiğimiz sayı ise "1357" olsun. Sayıları karşılaştırdığımız zaman bildiğimiz rakamlar "1" ve "5". Fakat "1" doğru basamakda iken "5" doğru basamakda değildir. Bu nedenle bu tahminden elde edeceğimiz sonuç "+-"dir.</string>
+</resources>
