@@ -14,12 +14,13 @@ For example the number that we try to find is 2704 and the estimate number that 
 
 Then the output will be one "+" and one "-". 
 
-Meaning of this output is 
+Meaning of this output is:
 
 -> One digit from your estimate is correct and it's in correct place (+) -> 2
 
 -> One digit from your estimate is correct but its place is wrong (-) -> 4
                             
+ ---
   
   
 Codes are little bit complicated because of the experience that I had that times :D
