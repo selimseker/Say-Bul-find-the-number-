@@ -23,6 +23,6 @@ Meaning of this output is:
  ---
   
   
-Codes are little bit complicated because of the experience that I had that times :D
+Codes are little bit complicated because of the experience that I have those days :D
 
 
